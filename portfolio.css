@@ -218,3 +218,52 @@ hr {
     margin-bottom: 113px;
     text-align: center;
 }
+
+/* footer styles */
+.foot {
+    display: flex;
+    justify-content: space-around;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 250px;
+}
+
+.foottitle {
+    color: var(--Dark-01, #181818);
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.footdes {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ficons {
+    display: flex;
+    gap: 24px;
+}
+
+.fmsg {
+    display: grid;
+    gap: 24px;
+}
+
+.fmsg input , textarea {
+    border: 0;
+    width: 461px;
+    border-radius: 5px;
+    padding: 18px 30px;
+}
